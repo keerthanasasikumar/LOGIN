@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBERS</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <input type="text"id="n1"oninput="this.value=this.value.replace(/[^0-9]/g,' ')" placeholder="Enter the number"><br><br>
+    <input type="text"id="n2"oninput="this.value=this.value.replace(/[^0-9]/g,' ')"placeholder="Enter the number"><br><br>
+    <button onclick="mul()">CLICK</button><br><br>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
